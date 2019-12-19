@@ -107,6 +107,11 @@ OPTIONAL<br>
 `{ customHeaders: Object }`<br>
 Custom headers you can pass along with the authorization request.
 
+#### parseIdToken
+OPTIONAL<br>
+`{ parseIdToken: boolean }`<br>
+When set to `true`, the id token is used to construct the user profile instead of the access token (if the authentication response also includes an id token).
+
 #### passReqToCallback
 OPTIONAL<br>
 `{ passReqToCallback: boolean }`<br>
