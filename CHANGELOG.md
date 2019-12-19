@@ -1,3 +1,7 @@
+# 2.1.0 (2019-12-19)
+
+* Add option to pass user id_token to the overloaded userProfile in strategy @Nigh7Sh4de
+
 # 2.0.3 (2019-08-27)
 
 * Updated npm deps
